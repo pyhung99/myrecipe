@@ -38,4 +38,5 @@ Rails.application.configure do
   Paperclip.options[:command_path] = "/Users/Perry/ImageMagick-6.9.2/bin/"
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+  config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
 end
