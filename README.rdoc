@@ -7,6 +7,3 @@ Here are the specs of the myrecipe app:
 - devise gem
 - cocoon gem
 - paperclip gem
-
-
-<tt>rake doc:app</tt>.
